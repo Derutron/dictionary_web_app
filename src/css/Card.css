@@ -4,14 +4,13 @@
     flex-shrink: 0;
     margin: auto 352px;
     margin-top: 50px;
-    /* background-color: aquamarine; */
+   
 }
 
 .group15{
     width: 737px;
     height: 114px;
     flex-shrink: 0;
-    /* background-color: #b2ed45; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,8 +19,6 @@
 .text1{
 color: var(--2D2D2D, #2D2D2D);
 font-feature-settings: 'clig' off, 'liga' off;
-
-/* Heading L - Sans */
 font-family: Inter;
 font-size: 64px;
 font-style: normal;
@@ -32,8 +29,6 @@ line-height: normal;
 .text2{
 color: var(--A445ED, #A445ED);
 font-feature-settings: 'clig' off, 'liga' off;
-
-/* Heading M - Sans */
 font-family: Inter;
 font-size: 24px;
 font-style: normal;
@@ -51,7 +46,6 @@ flex-shrink: 0;
 width: 736px;
 height: 376px;
 flex-shrink: 0;
-/* background-color: darkgray; */
 }
 
 .group2{
@@ -62,7 +56,6 @@ justify-content: center;
 align-items: center;
 gap: 20px;
 flex-shrink: 0;
-/* background-color: antiquewhite; */
 margin-top: 40px;
 }
 
@@ -106,7 +99,7 @@ width: 714px;
 height: 194px;
 flex-shrink: 0;
 margin-top: 30px;
-/* background-color: bisque; */
+
 }
 
 .group3{
@@ -132,13 +125,11 @@ margin: auto 10px;
 .text5{
 color: var(--2D2D2D, #2D2D2D);
 font-feature-settings: 'clig' off, 'liga' off;
-
-/* Body M - Sans */
 font-family: Inter;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 24px; /* 133.333% */
+line-height: 24px; 
 }
 
 .group5{
@@ -154,13 +145,11 @@ margin-top: 10px;
 .text6{
 color: var(--2D2D2D, #2D2D2D);
 font-feature-settings: 'clig' off, 'liga' off;
-
-/* Body M - Sans */
 font-family: Inter;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 24px; /* 133.333% */
+line-height: 24px; 
 }
 
 .group19{
@@ -177,8 +166,6 @@ align-items: center;
 .text7{
 color: var(--2D2D2D, #2D2D2D);
 font-feature-settings: 'clig' off, 'liga' off;
-
-/* Body M - Sans */
 font-family: Inter;
 font-size: 18px;
 font-style: normal;
@@ -200,8 +187,6 @@ margin-top: 10px;
 .text8{
     color: var(--757575, #757575);
 font-feature-settings: 'clig' off, 'liga' off;
-
-/* Heading S - Sans */
 font-family: Inter;
 font-size: 20px;
 font-style: normal;
@@ -216,4 +201,137 @@ font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+}
+
+.group12{
+width: 736px;
+height: 179px;
+flex-shrink: 0;
+margin-top: 20px;
+}
+
+.group22{
+display: inline-flex;
+height: 29px;
+justify-content: center;
+align-items: center;
+gap: 26px;
+flex-shrink: 0;
+}
+
+.text10{
+color: var(--2D2D2D, #2D2D2D);
+font-family: Inter;
+font-size: 24px;
+font-style: italic;
+font-weight: 700;
+line-height: normal;
+}
+
+.group111{
+width: 736px;
+height: 110px;
+flex-shrink: 0;
+margin-top: 20px;
+}
+
+.text11{
+color: var(--757575, #757575);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.group66{
+width: 714px;
+height: 61px;
+flex-shrink: 0;
+}
+
+.group33{
+display: flex;
+width: 350px;
+height: 24px;
+padding-right: 0px;
+justify-content: center;
+align-items: center;
+gap: 20px;
+flex-shrink: 0;
+}
+
+.text12{
+color: var(--2D2D2D, #2D2D2D);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+
+.group55{
+display: flex;
+width: 714px;
+height: 24px;
+padding-left: 0px;
+justify-content: flex-end;
+align-items: center;
+flex-shrink: 0;
+margin-top: 10px;
+margin-left: 30px;
+}
+
+.text13{
+width: 689px;
+flex-shrink: 0;
+color: var(--757575, #757575);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+
+.group7{
+width: 736px;
+height: 37px;
+flex-shrink: 0;
+}
+
+.text14{
+color: var(--757575, #757575);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+.text15{
+color: var(--2D2D2D, #2D2D2D);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+margin-left: 20px;
+}
+
+.Tabler-Icon{
+width: 12px;
+height: 12px;
+flex-shrink: 0;
+margin-left: 10px;
+}
+
+.group25{
+    display: flex;
 }

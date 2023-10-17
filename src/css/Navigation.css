@@ -1,5 +1,6 @@
-/* Navigation.css */
-.book-icon {
+
+.book-icon,
+.path-icon {
   width: 32px;
   height: 36.5px;
   flex-shrink: 0;
@@ -8,37 +9,27 @@
   .text{
         color: var(--2D2D2D, #2D2D2D);
         font-family: Inter;
-        /* font-size: 18px; */
         font-style: normal;
         font-weight: 700;
-        line-height: 24px; /* 133.333% */
-        font-size: 14px;
+        line-height: 24px; 
+        font-size: 18px;
         margin: 10px;
+        
+        
   }
 
   .container {
-    /* position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
-    /* text-align: center; */
-    /* background-color: #ccbfbf; */
     display: flex;
-    /* flex-direction: row;  */
-    /* align-items: center;  */
     justify-content: space-between;
     width: auto;
     margin: 50px 352px;
-  
-  
-
   }
   
   .book-icon,
   .path-icon,
   .group-icon {
-    /* Add individual styling for your icons if needed */
-    margin: 10px; /* Example margin between icons */
+
+    margin: 10px; 
   }
 
   .group-icon{
@@ -48,6 +39,7 @@
   
 .font{
     display: flex;
+   
     
 }
 
@@ -61,3 +53,6 @@
     width: 736px;
 }
   
+.ptag{
+  width: 120px;
+}
