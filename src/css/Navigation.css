@@ -1,58 +1,131 @@
 
-.book-icon,
-.path-icon {
+.book-icon{
   width: 32px;
   height: 36.5px;
   flex-shrink: 0;
   }
   
+  .path-icon {
+    width: 15px;
+    height: 10px;
+    stroke-width: 1.5px;
+    stroke: var(--A445ED, #A445ED);
+    }
+
   .text{
-        color: var(--2D2D2D, #2D2D2D);
-        font-family: Inter;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 24px; 
-        font-size: 18px;
-        margin: 10px;
-        
-        
+    color: var(--2D2D2D, #2D2D2D);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 15px;
   }
 
-  .container {
+  .group10 {
+    width: 736.993px;
+    height: 36.5px;
+    flex-shrink: 0;
     display: flex;
     justify-content: space-between;
-    width: auto;
-    margin: 50px 352px;
-  }
-  
-  .book-icon,
-  .path-icon,
-  .group-icon {
-
-    margin: 10px; 
+    align-items: center;
+    margin-left: px;
+    margin-top: 50px;
   }
 
   .group-icon{
-    margin-left: 40px;
+    width: 79.993px;
+    height: 20px;
+    flex-shrink: 0;
+    cursor: pointer;
   }
   
   
-.font{
-    display: flex;
-   
+.group13{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin-left: 55%;
     
 }
 
-.group{
+
+/* Media query for tablets (e.g., iPad) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .book-icon {
+    width: 32px;
+height: 36.5px;
+flex-shrink: 0;
+  }
+
+  .path-icon {
+    width: 14px; /* Adjust the width for tablets */
+    height: 12px; /* Adjust the height for tablets */
+  }
+
+  .text {
+    font-size: 16px; /* Adjust the font size for tablets */
+    margin-top: 10px; /* Adjust the margin-top for tablets */
+  }
+
+  .group10 {
+    width: 689px; /* Adjust the width for tablets to use the full width */
+    height: 36.5px;
+    flex-shrink: 0;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: px;
+    margin-top: 50px;
+  }
+
+  .group-icon {
+    width: 65px; /* Adjust the width for tablets */
+    height: 20px; /* Adjust the height for tablets */
+  }
+
+  .group13 {
     
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  margin-left: 55%;
+  }
 }
 
-.main{
-    margin: auto 352px;
-    width: 736px;
-}
-  
-.ptag{
-  width: 120px;
+/* Media query for mobile screens */
+@media (max-width: 767px) {
+  .book-icon {
+    width: 20px; /* Adjust the width for mobile screens */
+    height: 26px; /* Adjust the height for mobile screens */
+  }
+
+  .path-icon {
+    width: 12px; /* Adjust the width for mobile screens */
+    height: 8px; /* Adjust the height for mobile screens */
+  }
+
+  .text {
+    font-size: 16px; /* Adjust the font size for mobile screens */
+    margin-top: 10px; /* Adjust the margin-top for mobile screens */
+  }
+
+  .group10 {
+    width: 100%; /* Adjust the width for mobile screens to use the full width */
+    flex-direction: row; /* Change to a column layout for mobile */
+    align-items: center; /* Center elements for mobile */
+    margin-top: 50px; /* Adjust the margin-top for mobile screens */
+  }
+
+  .group-icon {
+    width: 61px; /* Adjust the width for mobile screens */
+    height: 16px; /* Adjust the height for mobile screens */
+  }
+
+  .group13 {
+    gap: 10px; /* Adjust the gap between elements for mobile screens */
+    margin-left: 0; /* Remove the margin-left for mobile screens */
+  }
 }

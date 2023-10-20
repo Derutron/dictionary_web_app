@@ -1,17 +1,15 @@
 .search-container {
     display: flex;
     align-items: center;
-    border: 1px solid #ccc;
     border-radius: 5px;
     width: auto;
     margin: auto 352px;
     margin-top: 50px;
     border-radius: 16px;
     background: var(--F4F4F4, #F4F4F4);
-
     width: 736px;
-height: 64px;
-flex-shrink: 0;
+    height: 64px;
+    flex-shrink: 0;
   }
   
   input {
@@ -19,11 +17,11 @@ flex-shrink: 0;
     border: none;
     outline: none;
     padding: 5px;
+    background-color: #F4F4F4;
   }
   
   .search-icon {
     font-size: 1.5em;
-   
     margin-right: 20px;
   }
 
@@ -38,4 +36,41 @@ line-height: normal;
 text-indent: 20px;
     
   }
+
+
+
+  /* Media query for tablets (e.g., iPad) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .search-container {
+    width: 689px;
+    height: 64px;
+    flex-shrink: 0;
+  }
+
+  input::placeholder {
+    /* Adjust the placeholder styles for tablets */
+    font-size: 18px; /* Adjust the font size */
+    text-indent: 10px; /* Adjust the text indent */
+  }
+}
+
+
+/* Media query for mobile screens (max-width: 767px) */
+@media (max-width: 767px) {
+  .search-container {
+    /* Adjust the styles for the search container on mobile screens */
+    width: 100%; /* Adjust the width */
+    margin: auto; /* Center the container horizontally */
+    margin-top: 30px; /* Adjust the top margin */
+  }
+
+  input::placeholder {
+    /* Adjust the placeholder styles for mobile screens */
+    font-size: 18px; /* Adjust the font size */
+    text-indent: 10px; /* Adjust the text indent */
+  }
+}
+
+
+
 

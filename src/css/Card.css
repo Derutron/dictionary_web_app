@@ -335,3 +335,95 @@ margin-left: 10px;
 .group25{
     display: flex;
 }
+
+
+/* Media query for tablets (e.g., iPad) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .group17 {
+        width: 689px;
+        height: 826px;
+        flex-shrink: 0;
+    }
+
+    .group15{
+        width: 689px;
+        height: 114px;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+  }
+  
+  /* Media query for mobile screens */
+  @media (max-width: 767px) {
+    .group17 {
+      /* Adjust the styles for the group17 component on mobile screens */
+      width: 100%; /* Adjust the width for mobile screens */
+      margin: auto; /* Center the container horizontally and adjust the top margin */
+      flex-shrink: 0;
+      
+    }
+
+    
+
+    .group15{
+        width: 100%;
+        margin: auto;
+       flex-shrink: 0;
+    }
+
+
+    .group14{
+        width: 100%;
+        height: 376px;
+        flex-shrink: 0;
+        }
+
+
+    .group11{
+        width: 100%;
+        height: 243px;
+        flex-shrink: 0;
+        margin-top: 20px;
+        }
+
+    .group6{
+        width: 100%;
+        height: 194px;
+        flex-shrink: 0;
+        margin-top: 30px;
+        
+        }
+
+        .group5,
+        .group3,
+        .group19{
+            width: 100%;
+            margin: auto;
+            flex-shrink: 0;
+          
+            }
+            
+
+   
+  
+    .text1 {
+      font-size: 48px; /* Adjust the font size for mobile screens */
+    }
+  
+    .text3 {
+      font-size: 20px; /* Adjust the font size for mobile screens */
+    }
+  
+    .text4 {
+      font-size: 16px; /* Adjust the font size for mobile screens */
+    }
+  
+    .text5, .text6, .text7, .text8, .text9, .text10, .text11, .text12, .text13, .text14, .text15 {
+      font-size: 14px; /* Adjust the font size for mobile screens */
+      
+    }
+  }
+  

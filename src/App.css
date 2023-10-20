@@ -1,5 +1,38 @@
-
-.App{
-  margin: 0px;
-  padding: 0px;
+/* Default styles for all screen sizes */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: auto;
+  background-color: rgb(220, 233, 233);
 }
+
+.App.dark{
+  background-color: rgb(27, 22, 22);
+  color: white;
+}
+
+/* Media query for tablets (e.g., iPad) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .App {
+    /* Tablet-specific styles */
+    padding: 30px;
+    margin: 1px auto;
+  }
+
+ 
+}
+
+/* Media query for mobile screens */
+@media (max-width: 767px) {
+  .App {
+    /* Mobile-specific styles */
+    padding: 30px;
+    margin: 1px auto;
+  }
+
+}
+
+
