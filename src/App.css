@@ -6,11 +6,11 @@
   justify-content: center;
   padding: 20px;
   margin: auto;
-  background-color: rgb(220, 233, 233);
+  background: var(--FFFFFF, #FFF);
 }
 
 .App.dark{
-  background-color: rgb(27, 22, 22);
+  background: var(--050505, #050505);
   color: white;
 }
 

@@ -5,6 +5,7 @@ import GroupIcon from '../icons/Group.svg';
 import PathIcon from '../icons/Path 3.svg';
 import { ThemeContext } from './ContextTheme';
 import GroupdarkIcon from '../icons/Group icon dark.svg'
+import BookDarkIcon from '../icons/book dark.svg'
 
 
 const Navigation = () => {
@@ -13,11 +14,13 @@ const Navigation = () => {
     
         <div className='group10'>
           
-            <img className='book-icon'
-            src={BookIcon} alt="Book Icon" />
+            {!darkTheme ? <img className='book-icon'
+            src={BookIcon} alt="Book Icon" /> : <img className='book-dark-icon'
+            src={BookDarkIcon} alt="Book Dark Icon" />}
           
             <div className='group13'>
-              <p className='text'>San Serif</p>
+
+              {!darkTheme ? <p className='text'>San Serif</p> : <p className='text16'>San Serif</p>}
                 <img className='path-icon'
                 src={PathIcon} alt="Path Icon" />
            
