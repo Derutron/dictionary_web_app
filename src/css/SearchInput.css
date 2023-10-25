@@ -17,8 +17,9 @@
     flex: 1;
     border: none;
     outline: none;
-    padding: 5px;
+    padding: 20px;
     background-color: #F4F4F4;
+    
   }
   
   .search-icon {
@@ -28,14 +29,13 @@
 
 
   input::placeholder {
-color: var(--2D2D2D, #2D2D2D);
+color: var(--2D2D2D, #a59595);
 font-family: Inter;
 font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
 text-indent: 20px;
-    
   }
 
 

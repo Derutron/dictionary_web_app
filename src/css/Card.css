@@ -349,8 +349,7 @@ margin-left: 20px;
 .text15a{
 color: var(--FFFFFF, #FFF);
 font-feature-settings: 'clig' off, 'liga' off;
-
-/* Body S - Sans */
+margin-left: 20px;
 font-family: Inter;
 font-size: 14px;
 font-style: normal;
