@@ -17,6 +17,7 @@
     height: 10px;
     stroke-width: 1.5px;
     stroke: var(--A445ED, #A445ED);
+    
     }
 
   .text{
@@ -26,7 +27,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
-    margin-top: 15px;
+    margin-top: 3px;
   }
 
   .text16{
@@ -41,7 +42,7 @@ margin-top: 15px;
   }
 
   .group10 {
-    width: 736.993px;
+    width: 90%;
     height: 36.5px;
     flex-shrink: 0;
     display: flex;
@@ -146,4 +147,98 @@ flex-shrink: 0;
     gap: 10px; /* Adjust the gap between elements for mobile screens */
     margin-left: 0; /* Remove the margin-left for mobile screens */
   }
+}
+
+
+
+/* Add these styles to your Navigation.css file */
+
+/* Light Theme Styles */
+.font-selector {
+  position: relative;
+}
+
+.font-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+  background: #f7f4f4;
+  transition: all 0.3s ease;
+  width: 150px;
+}
+
+.font-label:hover {
+  background: #f2f2f2;
+  width: 150px;
+}
+
+.arrow-icon {
+  margin-left: auto;
+  transition: transform 0.3s ease;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+/* Font List Styles */
+.font-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: white;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.font-option {
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.font-option:hover {
+  background: #f2f2f2;
+}
+
+/* Show the font list when it's active */
+.font-selector:hover .font-list {
+  display: block;
+}
+
+/* Dark Theme Styles */
+.dark .font-label {
+  background: #050505; /* Adjust the color to match your dark theme */
+  color: #fff; /* Adjust text color for dark theme */
+  border: 1px solid #050505; /* Adjust border color */
+  width: 150px;
+}
+
+.dark .font-label:hover {
+  background: #555; /* Hover background color for dark theme */
+  width: 150px;
+}
+
+.dark .arrow-icon {
+  filter: brightness(0) invert(1); /* Invert arrow icon color */
+}
+
+.dark .font-list {
+  background: #333; /* Adjust the background color for the font list */
+  border: 1px solid #444; /* Adjust the border color for font list */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4); /* Dark theme shadow */
+}
+
+.dark .font-option {
+  color: #fff; /* Adjust the text color for font options in dark theme */
+}
+
+.dark .font-option:hover {
+  background: #555; /* Hover background color for dark theme */
 }

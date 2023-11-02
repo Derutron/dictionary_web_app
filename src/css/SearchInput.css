@@ -1,17 +1,35 @@
-.search-container {
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
-    width: auto;
-    margin: auto 352px;
-    margin-top: 50px;
-    border-radius: 16px;
-    background: var(--F4F4F4, #F4F4F4);
-    width: 736px;
-    height: 64px;
-    flex-shrink: 0;
-    
-  }
+
+.SearchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--FFFFFF, #f7f4f4);
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 16px;
+  width: 736px;
+  flex-shrink: 0;
+  
+}
+
+.SearchContainer_dark{
+ 
+  background: var(--050505, #050505);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 16px;
+  width: 736px;
+  flex-shrink: 0;
+  
+}
+
+
   
   input {
     flex: 1;
@@ -19,7 +37,6 @@
     outline: none;
     padding: 20px;
     background-color: #F4F4F4;
-    
   }
   
   .search-icon {
@@ -37,6 +54,69 @@ font-weight: 700;
 line-height: normal;
 text-indent: 20px;
   }
+
+
+  .error-message {
+    color: #EF4444; /* Red-500 color */
+    font-size: 1.5rem; /* 14px - Text size for text-sm in Tailwind */
+    margin-top: 0.5rem; /* 2 in Tailwind */
+    /* Add other CSS properties as needed */
+  }
+  
+
+
+
+
+  /* Default styles for the input element */
+.search-input {
+  width: 90%;
+  color: #333; /* Light mode text color */
+  background-color: #eee; /* Light mode background color */
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  box-shadow: 0 0 0 2px #805ad5; /* Light mode shadow */
+  
+}
+
+/* Styles for dark mode */
+.dark-theme .search-input {
+  color: #fff; /* Dark mode text color */
+  background-color: #333; /* Dark mode background color */
+  box-shadow: 0 0 0 2px #805ad5; /* Dark mode shadow */
+  /* Add additional dark mode styles here */
+}
+
+/* Focus state styles (ring) */
+.search-input:focus {
+  border: 2px solid #805ad5; /* Focus ring color */
+}
+
+/* Rounded corners (border-radius) */
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+/* Error text styles */
+.error-text {
+  color: #ff0000; /* Error text color */
+  font-size: 0.875rem; /* Font size for error text */
+  margin-top: 0.5rem;
+}
+
+
+
+
+.search-button {
+  max-width: 375px;
+  margin-left: -20px;
+  padding: 0 10px;
+  position: relative;
+  left: 320px;
+  top: -32px;
+  /* Add other CSS properties as needed */
+}
 
 
 

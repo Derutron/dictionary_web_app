@@ -1,0 +1,26 @@
+.unavailable-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin: 0 auto;
+    max-width: 375px; /* Adjust the max-width as needed */
+  }
+  
+  .unavailable-emoji {
+    font-size: 2.5rem; /* Adjust the font size as needed */
+    margin-bottom: 0.75rem; /* Adjust the margin as needed */
+  }
+  
+  .unavailable-heading {
+    font-size: 1.25rem; /* Adjust the font size as needed */
+    font-weight: bold;
+    margin-bottom: 0.75rem; /* Adjust the margin as needed */
+    text-align: center;
+  }
+  
+  .unavailable-text {
+    color: grey; /* You can adjust the color as needed */
+  }
+  

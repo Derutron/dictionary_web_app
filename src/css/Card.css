@@ -1,5 +1,5 @@
 .group17{
-    width: 737px;
+    width: 90%;
     height: 826px;
     flex-shrink: 0;
     margin: auto 352px;
@@ -8,7 +8,7 @@
 }
 
 .group15{
-    width: 737px;
+    width: 90%;
     height: 114px;
     flex-shrink: 0;
     display: flex;
@@ -27,7 +27,7 @@ line-height: normal;
 }
 
 .text17{
-    color: var(--FFFFFF, #FFF);
+    color: var(#FFF);
     font-feature-settings: 'clig' off, 'liga' off;
     
     /* Heading L - Sans */
@@ -55,20 +55,22 @@ flex-shrink: 0;
 }
 
 .group14{
-width: 736px;
-height: 376px;
-flex-shrink: 0;
+width: 50%;
+height: 400px;
+
 }
 
 .group2{
-display: inline-flex;
+display: flex;
+flex-direction: column;
 height: 29px;
-width: 736px;
-justify-content: center;
+width: 90%;
+justify-content: space-between;
 align-items: center;
-gap: 20px;
+gap: 10px;
 flex-shrink: 0;
-margin-top: 40px;
+position: relative;
+top: 20px;
 }
 
 .text3{
@@ -92,7 +94,7 @@ margin-left: 20px;
     }
 
 .rectangle-Icon{
-width: 656px;
+width: 90%;
 height: 1px;
 background: var(--E9E9E9, #E9E9E9);
 }
@@ -171,6 +173,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 margin-top: 10px;
+
 }
 
 .group19{
@@ -318,9 +321,11 @@ line-height: 24px;
 }
 
 .group7{
-width: 736px;
+width: 90%;
 height: 37px;
 flex-shrink: 0;
+margin: 20px;
+
 }
 
 .text14{
@@ -368,6 +373,73 @@ margin-left: 10px;
 .group25{
     display: flex;
 }
+
+
+
+
+
+
+
+
+
+/* CSS for Content component */
+
+.responsive-container {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px; /* Adjust the max-width as needed */
+  font-family: 'Your-Font-Here', sans-serif; /* Specify the desired font family */
+  width: 90%;
+}
+
+.horizontal-line {
+  width: 100%;
+  margin-left: 1rem;
+  border: none;
+  border-top: 1px solid #000; /* Adjust the color and thickness as needed */
+}
+
+.section-heading {
+  color: grey;
+  margin-top: 1.25rem;
+
+}
+
+.list {
+  list-style: disc;
+  margin-top: 1rem;
+}
+
+.synonyms-section {
+  font-family: 'Inconsolata', monospace; /* Specify the desired font family */
+  margin-top: 1.25rem;
+
+}
+
+.synonyms-heading {
+  color: grey;
+
+}
+
+.synonym {
+  color: #800080; /* Purple color */
+  margin-left: 0.25rem;
+  
+}
+
+
+
+.synonyms-container {
+  display: flex; /* Use flexbox for horizontal layout */
+  flex-wrap: wrap; /* Allow the content to wrap to the next line */
+  gap: 5px; /* Adjust the spacing between synonyms */
+
+}
+
+
+
 
 
 /* Media query for tablets (e.g., iPad) */
@@ -458,5 +530,52 @@ margin-left: 10px;
       font-size: 14px; /* Adjust the font size for mobile screens */
       
     }
+  }
+
+  
+
+
+
+
+
+
+  .group15 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .group18 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text1 {
+    font-size: 1.2rem;
+    /* Add any other styles you want for the light theme */
+  }
+  
+  .text17 {
+    font-size: 1.2rem;
+    /* Add any other styles you want for the dark theme */
+  }
+  
+  .text2 {
+    font-style: italic;
+    /* Add any other styles for the phonetic text */
+  }
+  
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+  }
+  
+ 
+  
+  .hidden {
+    display: none;
   }
   
