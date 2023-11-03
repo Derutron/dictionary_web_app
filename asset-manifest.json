@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dictionary_web_app/static/css/main.4bd167e6.css",
+    "main.js": "/dictionary_web_app/static/js/main.465ac2d8.js",
+    "static/media/search.svg": "/dictionary_web_app/static/media/search.5bb48aaec66edfbbab42ae701b9e8d30.svg",
+    "static/media/tabler_external-link.svg": "/dictionary_web_app/static/media/tabler_external-link.8af9b4e07934486de1b21fd3e1e7870e.svg",
+    "static/media/Group.svg": "/dictionary_web_app/static/media/Group.01e127bb11000b3a79b087bafb4ab205.svg",
+    "static/media/Group icon dark.svg": "/dictionary_web_app/static/media/Group icon dark.044dd5cf9a02a2f8a6161d3962f410d5.svg",
+    "index.html": "/dictionary_web_app/index.html",
+    "static/media/book dark.svg": "/dictionary_web_app/static/media/book dark.5b86f385c07126f683510813ae5f8a86.svg",
+    "static/media/book.svg": "/dictionary_web_app/static/media/book.2ff97ff2c49a0708bbe7034b54989794.svg",
+    "static/media/Group 4.svg": "/dictionary_web_app/static/media/Group 4.49ed053a5d5b416507f4b59bc1f81123.svg",
+    "static/media/Path 3.svg": "/dictionary_web_app/static/media/Path 3.bae0a7ab671b8855fdd8c2bc97fa252d.svg",
+    "static/media/Rectangle.svg": "/dictionary_web_app/static/media/Rectangle.7a0e130d058fb7fcf7d063ee99835ff0.svg",
+    "main.4bd167e6.css.map": "/dictionary_web_app/static/css/main.4bd167e6.css.map",
+    "main.465ac2d8.js.map": "/dictionary_web_app/static/js/main.465ac2d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bd167e6.css",
+    "static/js/main.465ac2d8.js"
+  ]
+}
