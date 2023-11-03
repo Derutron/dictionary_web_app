@@ -57,21 +57,18 @@ text-indent: 20px;
 
 
   .error-message {
-    color: #EF4444; /* Red-500 color */
-    font-size: 1.5rem; /* 14px - Text size for text-sm in Tailwind */
-    margin-top: 0.5rem; /* 2 in Tailwind */
-    /* Add other CSS properties as needed */
+    color: #EF4444;
+    font-size: 1.5rem; 
+    margin-top: 0.5rem; 
   }
   
-
-
 
 
   /* Default styles for the input element */
 .search-input {
   width: 90%;
-  color: #333; /* Light mode text color */
-  background-color: #eee; /* Light mode background color */
+  color: #333; 
+  background-color: #eee; 
   outline: none;
   border: none;
   border-radius: 0.5rem;
@@ -85,12 +82,11 @@ text-indent: 20px;
   color: #fff; /* Dark mode text color */
   background-color: #333; /* Dark mode background color */
   box-shadow: 0 0 0 2px #805ad5; /* Dark mode shadow */
-  /* Add additional dark mode styles here */
 }
 
 /* Focus state styles (ring) */
 .search-input:focus {
-  border: 2px solid #805ad5; /* Focus ring color */
+  border: 1px solid #805ad5; /* Focus ring color */
 }
 
 /* Rounded corners (border-radius) */
@@ -100,12 +96,10 @@ text-indent: 20px;
 
 /* Error text styles */
 .error-text {
-  color: #ff0000; /* Error text color */
-  font-size: 0.875rem; /* Font size for error text */
+  color: #ff0000; 
+  font-size: 0.875rem; 
   margin-top: 0.5rem;
 }
-
-
 
 
 .search-button {
@@ -122,11 +116,14 @@ text-indent: 20px;
 
   /* Media query for tablets (e.g., iPad) */
 @media (min-width: 768px) and (max-width: 1023px) {
-  .search-container {
+  .SearchContainer,
+  .SearchContainer_dark {
     width: 689px;
     height: 64px;
     flex-shrink: 0;
+    margin-top: 50px;
   }
+
 
   input::placeholder {
     /* Adjust the placeholder styles for tablets */

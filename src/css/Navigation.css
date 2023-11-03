@@ -218,6 +218,8 @@ flex-shrink: 0;
   color: #fff; /* Adjust text color for dark theme */
   border: 1px solid #050505; /* Adjust border color */
   width: 150px;
+  position: relative;
+  top: -5px;
 }
 
 .dark .font-label:hover {

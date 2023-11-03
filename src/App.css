@@ -29,23 +29,24 @@
   
 }
 
-/* Media query for tablets (e.g., iPad) */
-@media (min-width: 768px) and (max-width: 1023px) {
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for tablets */
+  
+  /* Example styles */
   .App {
-    /* Tablet-specific styles */
-    padding: 30px;
-    margin: 1px auto;
+    font-size: 16px;
+    padding: 20px;
   }
-
- 
 }
 
-/* Media query for mobile screens */
-@media (max-width: 767px) {
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+  /* Styles for mobile devices */
+  
+  /* Example styles */
   .App {
-    /* Mobile-specific styles */
-    padding: 30px;
-    margin: 1px auto;
+    font-size: 14px;
+    padding: 10px;
   }
-
 }
