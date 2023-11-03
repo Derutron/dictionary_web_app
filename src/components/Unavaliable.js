@@ -5,7 +5,7 @@ const Unavaliable = () => {
     return (
         <div className="unavailable-container">
             <div className="unavailable-emoji">😞</div>
-            <h2 className="unavailable-heading">"Oops, can't find the word here in the dictionary."</h2>
+            <h2 className="unavailable-heading">"Oops, can't find the word here in the dictionary"</h2>
            
         </div>
     );
