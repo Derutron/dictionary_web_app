@@ -1,4 +1,9 @@
 /* Default styles for all screen sizes */
+
+* {
+  box-sizing: border-box;
+}
+
 .App {
   display: flex;
   flex-direction: column;
@@ -30,7 +35,7 @@
 }
 
 /* Tablets */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 992px) {
   /* Styles for tablets */
   
   /* Example styles */
@@ -41,7 +46,7 @@
 }
 
 /* Mobile Devices */
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
   /* Styles for mobile devices */
   
   /* Example styles */
