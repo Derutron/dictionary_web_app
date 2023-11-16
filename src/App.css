@@ -1,57 +1,69 @@
 /* Default styles for all screen sizes */
 
-* {
-  box-sizing: border-box;
-}
+
 
 .App {
+
+  /* width: 100vw; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: var(--FFFFFF, #f7f4f4);
-  margin: auto;
-  margin-top: 50px;
-  border-radius: 16px;
-  width: 736px;
+  background: var(--FFFFFF, #ffffff);
   flex-shrink: 0;
+  padding: 0px 350px 600px 350px;
+  padding-bottom: 600px;
+
   
 }
 
 .App.dark{
- 
-  background: var(--050505, #050505);
-  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: auto;
-  margin-top: 50px;
-  border-radius: 16px;
-  width: 736px;
   flex-shrink: 0;
-  
+  padding: 0px 350px 600px 350px;
+  background: var(--050505, #050505);
+  color: white;
+  padding-bottom: 600px;
 }
 
 /* Tablets */
-@media screen and (max-width: 992px) {
-  /* Styles for tablets */
-  
-  /* Example styles */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+ 
   .App {
-    font-size: 16px;
-    padding: 20px;
+    padding: 0px 150px 600px 150px;
+  }
+  
+  .App.dark{
+    padding: 0px 350px 600px 350px;
   }
 }
 
+@media screen and (min-width: 568px) and (max-width: 767px) {
+
+  .App {
+    font-size: 16px;
+    padding: 0px 250px 600px 250px;
+  }
+
+  .App.dark{
+    font-size: 16px;
+    padding: 0px 250px 600px 250px;
+  }
+} 
+
 /* Mobile Devices */
-@media screen and (max-width: 600px) {
-  /* Styles for mobile devices */
-  
-  /* Example styles */
+@media screen and (max-width: 567px) {
+
   .App {
     font-size: 14px;
-    padding: 10px;
+    padding: 0px 150px 600px 150px;
   }
-}
+
+  .App.dark{
+    font-size: 14px;
+    padding: 0px 150px 600px 150px;
+  }
+} 

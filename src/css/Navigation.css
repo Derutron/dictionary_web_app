@@ -1,15 +1,14 @@
-
 .book-icon{
   width: 32px;
   height: 36.5px;
   flex-shrink: 0;
   }
 
-  .book-dark-icon{
-    width: 32px;
-    height: 36.5px;
-    flex-shrink: 0;
-    color: white;
+.book-dark-icon{
+  width: 32px;
+  height: 36.5px;
+  flex-shrink: 0;
+  color: white;
   }
   
   .path-icon {
@@ -17,7 +16,6 @@
     height: 10px;
     stroke-width: 1.5px;
     stroke: var(--A445ED, #A445ED);
-    
     }
 
   .text{
@@ -42,116 +40,44 @@ margin-top: 15px;
   }
 
   .group10 {
-    width: 90%;
-    height: 36.5px;
+    width: 737px;
+    height: 36px;
     flex-shrink: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: px;
     margin-top: 50px;
   }
 
   .group-icon{
-    width: 79.993px;
+    width: 80px;
+    height: 20px;
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+
+  .group-icon-dark{
+    width: 80px;
     height: 20px;
     flex-shrink: 0;
     cursor: pointer;
   }
   
-  
+.group{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 50px;
+}
+
 .group13{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 18px;
   margin-left: 55%;
-    
 }
 
 
-/* Media query for tablets (e.g., iPad) */
-@media (min-width: 768px) and (max-width: 1023px) {
-  .book-icon {
-    width: 32px;
-height: 36.5px;
-flex-shrink: 0;
-  }
-
-  .path-icon {
-    width: 14px; /* Adjust the width for tablets */
-    height: 12px; /* Adjust the height for tablets */
-  }
-
-  .text {
-    font-size: 16px; /* Adjust the font size for tablets */
-    margin-top: 10px; /* Adjust the margin-top for tablets */
-  }
-
-  .group10 {
-    width: 689px; /* Adjust the width for tablets to use the full width */
-    height: 36.5px;
-    flex-shrink: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: px;
-    margin-top: 50px;
-  }
-
-  .group-icon {
-    width: 65px; 
-    height: 20px; 
-  }
-
-  .group13 {
-    
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 18px;
-  margin-left: 55%;
-  }
-}
-
-/* Media query for mobile screens */
-@media (max-width: 767px) {
-  .book-icon {
-    width: 20px; /* Adjust the width for mobile screens */
-    height: 26px; /* Adjust the height for mobile screens */
-  }
-
-  .path-icon {
-    width: 12px; /* Adjust the width for mobile screens */
-    height: 8px; /* Adjust the height for mobile screens */
-  }
-
-  .text {
-    font-size: 16px; /* Adjust the font size for mobile screens */
-    margin-top: 10px; /* Adjust the margin-top for mobile screens */
-  }
-
-  .group10 {
-    width: 100%; /* Adjust the width for mobile screens to use the full width */
-    flex-direction: row; /* Change to a column layout for mobile */
-    align-items: center; /* Center elements for mobile */
-    margin-top: 50px; /* Adjust the margin-top for mobile screens */
-  }
-
-  .group-icon {
-    width: 61px; /* Adjust the width for mobile screens */
-    height: 16px; /* Adjust the height for mobile screens */
-  }
-
-  .group13 {
-    gap: 10px; /* Adjust the gap between elements for mobile screens */
-    margin-left: 0; /* Remove the margin-left for mobile screens */
-  }
-}
-
-
-
-/* Add these styles to your Navigation.css file */
 
 /* Light Theme Styles */
 .font-selector {
@@ -214,33 +140,129 @@ flex-shrink: 0;
 
 /* Dark Theme Styles */
 .dark .font-label {
-  background: #050505; /* Adjust the color to match your dark theme */
-  color: #fff; /* Adjust text color for dark theme */
-  border: 1px solid #050505; /* Adjust border color */
+  background: #050505; 
+  color: #fff; 
+  border: 1px solid #050505; 
   width: 150px;
   position: relative;
   top: -5px;
 }
 
 .dark .font-label:hover {
-  background: #555; /* Hover background color for dark theme */
+  background: #555; 
   width: 150px;
 }
 
 .dark .arrow-icon {
-  filter: brightness(0) invert(1); /* Invert arrow icon color */
+  filter: brightness(0) invert(1); 
 }
 
 .dark .font-list {
-  background: #333; /* Adjust the background color for the font list */
-  border: 1px solid #444; /* Adjust the border color for font list */
+  background: #333; 
+  border: 1px solid #444; 
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4); /* Dark theme shadow */
 }
 
 .dark .font-option {
-  color: #fff; /* Adjust the text color for font options in dark theme */
+  color: #fff;
 }
 
 .dark .font-option:hover {
-  background: #555; /* Hover background color for dark theme */
+  background: #555; 
+}
+
+
+
+
+
+/* Media query for tablets (e.g., iPad) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+ 
+  .group10 {
+    width: 537px;
+  }
+
+  .group13 {
+  margin-left: 50%;
+  }
+}
+
+/* Media query for mobile screens */
+@media screen and (min-width: 568px) and (max-width: 767px) {
+  .group10 {
+    width: 437px;
+  }
+
+  .group13 {
+  margin-left: 45%;
+  }
+
+
+}
+
+
+@media screen and (max-width: 567px) {
+  .group10 {
+    width: 400px;
+  
+  }
+
+  .group13 {
+  margin-left: 40%;
+  }
+
+  .book-icon{
+    width: 22px;
+    height: 26px;
+    }
+  
+  .book-dark-icon{
+    width: 22px;
+    height: 26px;
+    }
+    
+    .path-icon {
+      width: 15px;
+      height: 10px;
+      }
+  
+    .text{
+      font-size: 12px;
+      line-height: 14px;
+    }
+  
+    .text16{
+  font-size: 12px;
+  line-height: 14px;
+    }
+
+    .group-icon{
+      width: 60px;
+      height: 15px;
+    }
+
+    .group-icon-dark{
+      width: 60px;
+      height: 15px;
+    }
+
+    .font-label {
+      padding: 6px;
+      width: 100px;
+    }
+
+    .font-label:hover {
+      background: #f2f2f2;
+      width: 100px;
+    }
+
+    .dark .font-label {
+      padding: 6px;
+      width: 100px;
+    }
+
+    .dark .font-label:hover {
+      background: #555; 
+      width: 100px;
+    }
 }

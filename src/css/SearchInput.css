@@ -1,27 +1,20 @@
-
 .SearchContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: var(--FFFFFF, #f7f4f4);
-  margin: auto;
   margin-top: 50px;
   border-radius: 16px;
   width: 736px;
   flex-shrink: 0;
-  
 }
 
 .SearchContainer_dark{
- 
-  background: var(--050505, #050505);
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: auto;
   margin-top: 50px;
   border-radius: 16px;
   width: 736px;
@@ -29,21 +22,18 @@
   
 }
 
-
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 20px;
+  background-color: #F4F4F4;
+}
   
-  input {
-    flex: 1;
-    border: none;
-    outline: none;
-    padding: 20px;
-    background-color: #F4F4F4;
-  }
-  
-  .search-icon {
-    font-size: 1.5em;
-    margin-right: 20px;
-  }
-
+.search-icon {
+  font-size: 1.5em;
+  margin-right: 20px;
+}
 
   input::placeholder {
 color: var(--2D2D2D, #a59595);
@@ -56,51 +46,29 @@ text-indent: 20px;
   }
 
 
-  .error-message {
-    color: #EF4444;
-    font-size: 1.5rem; 
-    margin-top: 0.5rem; 
-  }
+.error-message {
+  color: #EF4444;
+  font-size: 1.5rem; 
+  margin-top: 0.5rem; 
+}
   
 
-
-  /* Default styles for the input element */
 .search-input {
-  width: 90%;
-  color: #333; 
-  background-color: #eee; 
-  outline: none;
-  border: none;
-  border-radius: 0.5rem;
-  padding: 0.75rem 1rem;
-  box-shadow: 0 0 0 2px #805ad5; /* Light mode shadow */
-  
+width: 100%;
+color: #333; 
+background-color: #eee; 
+outline: none;
+border: none;
+border-radius: 0.5rem;
+padding: 0.75rem 1rem;
+box-shadow: 0 0 0 2px #805ad5;
 }
 
-/* Styles for dark mode */
-.dark-theme .search-input {
-  color: #fff; /* Dark mode text color */
-  background-color: #333; /* Dark mode background color */
-  box-shadow: 0 0 0 2px #805ad5; /* Dark mode shadow */
-}
 
 /* Focus state styles (ring) */
 .search-input:focus {
-  border: 1px solid #805ad5; /* Focus ring color */
+  border: 1px solid #805ad5; 
 }
-
-/* Rounded corners (border-radius) */
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
-/* Error text styles */
-.error-text {
-  color: #ff0000; 
-  font-size: 0.875rem; 
-  margin-top: 0.5rem;
-}
-
 
 .search-button {
   max-width: 375px;
@@ -109,46 +77,87 @@ text-indent: 20px;
   position: relative;
   left: 320px;
   top: -32px;
-  /* Add other CSS properties as needed */
 }
 
 
 
-  /* Media query for tablets (e.g., iPad) */
-@media (min-width: 768px) and (max-width: 1023px) {
-  .SearchContainer,
-  .SearchContainer_dark {
-    width: 689px;
-    height: 64px;
-    flex-shrink: 0;
-    margin-top: 50px;
+
+/* Media query for tablets (e.g., iPad) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  .SearchContainer {
+    width: 537px;
   }
-
-
-  input::placeholder {
-    /* Adjust the placeholder styles for tablets */
-    font-size: 18px; /* Adjust the font size */
-    text-indent: 10px; /* Adjust the text indent */
-  }
-}
-
-
-/* Media query for mobile screens (max-width: 767px) */
-@media (max-width: 767px) {
-  .search-container {
-    /* Adjust the styles for the search container on mobile screens */
-    width: 100%; /* Adjust the width */
-    margin: auto; /* Center the container horizontally */
-    margin-top: 30px; /* Adjust the top margin */
+  
+  .SearchContainer_dark{
+    width: 537px;
   }
 
   input::placeholder {
-    /* Adjust the placeholder styles for mobile screens */
-    font-size: 18px; /* Adjust the font size */
-    text-indent: 10px; /* Adjust the text indent */
+font-size: 18px;
+font-weight: 600;
+text-indent: 18px;
   }
+
+.search-button {
+  position: relative;
+  left: 240px;
+  top: -32px;
+}
 }
 
 
 
 
+
+/* Media query for mobile screens */
+@media screen and (min-width: 568px) and (max-width: 767px) {
+  .SearchContainer {
+    width: 437px;
+  }
+  
+  .SearchContainer_dark{
+    width: 437px;
+  }
+
+  input::placeholder {
+font-size: 16px;
+font-weight: 600;
+text-indent: 16px;
+  }
+
+.search-button {
+  position: relative;
+  left: 200px;
+  top: -32px;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 567px) {
+  .SearchContainer {
+    width: 400px;
+ 
+  }
+  
+  .SearchContainer_dark{
+    width: 400px;
+  
+  }
+
+  input::placeholder {
+font-size: 14px;
+font-weight: 500;
+text-indent: 14px;
+  }
+
+.search-button {
+  position: relative;
+  left: 190px;
+  top: -25px;
+}
+
+}

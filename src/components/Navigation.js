@@ -34,29 +34,32 @@ const Navigation = (props) => {
         <img className="book-dark-icon" src={BookDarkIcon} alt="Book Dark Icon" />
       )}
 
-      <div className="group13">
-        <p className={darkTheme ? 'text16' : 'text'}>
-          <div className="font-selector">
-            <h3 className="font-label" onClick={handleFontClick}>
-              <span className="selected-font">{selectedFontStyle}</span>
-              <img className={`arrow-icon ${showFontList ? 'rotate-90' : ''}`} src={PathIcon} alt="Path Icon" />
-            </h3>
-            {showFontList && (
-              <ul className="font-list">
-                {fontStyles.map((fontStyle, index) => (
-                  <li
-                    key={index}
-                    className={`font-option ${fontStyle === selectedFontStyle ? 'selected' : ''}`}
-                    onClick={() => handleFontSelect(fontStyle)}
-                  >
-                    {fontStyle}
-                  </li>
-                ))}
-              </ul>
-            )}
-          </div>
-        </p>
-      </div>
+
+      <div className='group'>
+        <div className="group13">
+          <p className={darkTheme ? 'text16' : 'text'}>
+            <div className="font-selector">
+              <h3 className="font-label" onClick={handleFontClick}>
+                <span className="selected-font">{selectedFontStyle}</span>
+                <img className={`arrow-icon ${showFontList ? 'rotate-90' : ''}`} src={PathIcon} alt="Path Icon" />
+              </h3>
+              {showFontList && (
+                <ul className="font-list">
+                  {fontStyles.map((fontStyle, index) => (
+                    <li
+                      key={index}
+                      className={`font-option ${fontStyle === selectedFontStyle ? 'selected' : ''}`}
+                      onClick={() => handleFontSelect(fontStyle)}
+                    >
+                      {fontStyle}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          </p>
+        </div>
+     
 
       {!darkTheme ? (
         <img
@@ -73,6 +76,7 @@ const Navigation = (props) => {
           alt="Group Icon"
         />
       )}
+       </div>
     </div>
   );
 };

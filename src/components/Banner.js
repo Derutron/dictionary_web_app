@@ -1,7 +1,7 @@
 import React, { useContext, useRef } from 'react';
 import { ThemeContext } from './ThemeContext';
 import Group4Icon from '../icons/Group 4.svg';
-import '../css/Card.css'
+import '../css/Banner.css'
 
 
     export const Banner = ({ audioUrl, word, phonetic }) => {
@@ -29,9 +29,3 @@ import '../css/Card.css'
 }
 
 export default Banner
-
-
-
-
-
-

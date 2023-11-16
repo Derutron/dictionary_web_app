@@ -5,22 +5,22 @@
     justify-content: center;
     margin-top: 10px;
     margin: 0 auto;
-    max-width: 375px; /* Adjust the max-width as needed */
+    max-width: 375px; 
   }
   
   .unavailable-emoji {
-    font-size: 2.5rem; /* Adjust the font size as needed */
-    margin-bottom: 0.75rem; /* Adjust the margin as needed */
+    font-size: 2.5rem; 
+    margin-bottom: 0.75rem; 
   }
   
   .unavailable-heading {
-    font-size: 1.25rem; /* Adjust the font size as needed */
+    font-size: 1.25rem; 
     font-weight: bold;
-    margin-bottom: 0.75rem; /* Adjust the margin as needed */
+    margin-bottom: 0.75rem; 
     text-align: center;
   }
   
   .unavailable-text {
-    color: grey; /* You can adjust the color as needed */
+    color: grey; 
   }
   
