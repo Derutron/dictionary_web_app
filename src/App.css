@@ -59,11 +59,11 @@
 
   .App {
     font-size: 14px;
-    padding: 0px 150px 600px 150px;
+    padding: 0px 50px 600px 50px;
   }
 
   .App.dark{
     font-size: 14px;
-    padding: 0px 150px 600px 150px;
+    padding: 0px 50px 600px 50px;
   }
 } 

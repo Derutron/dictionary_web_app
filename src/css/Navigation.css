@@ -201,9 +201,9 @@ margin-top: 15px;
 }
 
 
-@media screen and (max-width: 567px) {
+@media screen and (min-width: 400px) and (max-width: 567px) {
   .group10 {
-    width: 400px;
+    width: 350px;
   
   }
 
@@ -244,6 +244,73 @@ margin-top: 15px;
     .group-icon-dark{
       width: 60px;
       height: 15px;
+    }
+
+    .font-label {
+      padding: 6px;
+      width: 100px;
+    }
+
+    .font-label:hover {
+      background: #f2f2f2;
+      width: 100px;
+    }
+
+    .dark .font-label {
+      padding: 6px;
+      width: 100px;
+    }
+
+    .dark .font-label:hover {
+      background: #555; 
+      width: 100px;
+    }
+}
+
+
+@media screen and (max-width: 399px) {
+  .group10 {
+    width: 250px;
+  
+  }
+
+  .group13 {
+  margin-left: 20%;
+  }
+
+  .book-icon{
+    width: 20px;
+    height: 20px;
+    }
+  
+  .book-dark-icon{
+    width: 20px;
+    height: 20px;
+    }
+    
+    .path-icon {
+      width: 15px;
+      height: 10px;
+      }
+  
+    .text{
+      font-size: 15px;
+      line-height: 12px;
+    }
+  
+    .text16{
+  font-size: 12px;
+  line-height: 14px;
+    }
+
+    .group-icon{
+      width: 50px;
+      height: 14px;
+    }
+
+    .group-icon-dark{
+      width: 50px;
+      height: 14px;
     }
 
     .font-label {
